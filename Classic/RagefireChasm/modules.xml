@@ -1,7 +1,11 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
 ..\FrameXML\UI.xsd">
 
-<Include file="Classic\RagefireChasm\modules.xml"/>
-<Include file="Classic\RagefireChasm\locales.xml"/>
+<Script file="Oggleflint.lua"/>
+<Script file="Taragaman.lua"/>
+<Script file="Jergosh.lua"/>
+<Script file="Bazzalan.lua"/>
+
+<Include file="Options\options.xml"/>
 
 </Ui>
