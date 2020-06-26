@@ -1,0 +1,7 @@
+release/
+releases/
+release.sh
+
+gen_option_values.lua
+
+.luacheckrc
