@@ -1,0 +1,19 @@
+## Interface: 11304
+
+## Title: TinyWigs
+## Notes: Classic dungeon modules for BigWigs.
+## Author: Avyiel
+## Version: @project-version@
+
+## X-Category: Party
+## X-License: GPLv3
+## X-Curse-Project-ID: 392138
+
+## X-BigWigs-LoadOn-InstanceId: 33, 34, 36, 43, 44, 47, 48, 70, 90, 109, 129, 189, 209, 229, 230, 289, 329, 349, 389, 429
+
+## Dependencies: BigWigs
+## LoadOnDemand: 1
+
+TinyWigs.lua
+
+modules.xml

@@ -1,5 +1,8 @@
-# LittleWigs
-A collection of BigWigs modules for bosses found in 5-man dungeons and scenarios.
+# TinyWigs
 
-## Download
-https://www.curseforge.com/wow/addons/little-wigs
+### Classic dungeon modules for BigWigs.
+
+
+The inspiration for this addon is [LittleWigs](https://github.com/BigWigsMods/LittleWigs).
+
+Since it did not get updated for Classic, I decided to release my own.

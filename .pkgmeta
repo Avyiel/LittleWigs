@@ -1,6 +1,6 @@
-package-as: LittleWigs
-wowi-archive-previous: no
+package-as: TinyWigs
 
 ignore:
+  - .gitignore
   - .travis.yml
   - README.md
