@@ -21,7 +21,7 @@
 ## X-Curse-Project-ID: 4383
 ## X-WoWI-ID: 9577
 
-## X-BigWigs-LoadOn-InstanceId: 999999
+## X-BigWigs-LoadOn-InstanceId: 389
 
 ## Dependencies: BigWigs
 ## LoadOnDemand: 1
