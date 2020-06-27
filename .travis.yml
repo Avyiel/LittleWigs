@@ -12,6 +12,17 @@ before_script:
  - /home/travis/.luarocks/bin/luacheck . -q
 script: curl -s https://raw.githubusercontent.com/Avyiel/packager/master/release.sh | bash -s -- -d
 
+deploy:
+  provider: releases
+  api_key:
+    secure: PCj521+XveJyCb8YAeQIzGi+YnJAi2TVvVT2JRPuiMNBhojp97ARXOy1rhbrYf5m5qihzktuvRT4ygO3rGf5nQD7pC3vcLHmAyvVwzoyRWTOWltbAdXM5HtLxGXEYXhl6e/6MTTClspRO4g+RI4S5Y5020HN/tuYUbPXNL6sUik7Mib6aQImgpG010XpOvsobT41EQc3IVsnqfJG6XMcTVhp4AEJFYP0nwjQzEW9Y47BM/UITi2giox0NsQPBfDnCgHIlVQw9vNFS1H7uHxV55+n+lyBQ6IxtQqAiIvq4MBkWkwRVdl91APPgz+0xzaPemeImJ49Chyf8N2eU+wKfjZQF0IGk511RnvuazexjAFRDWWcxHEdNSmv/L9isaCaNqg6WspSiMlTpXB3j1X6nfl1baSN78IaBWv4pIheSFNOYHxW7CkGNUBwcMtg/ZuBgRLd2nEoRSjCIBrutDANOLzNq4HzxU/fRoEIwDE/C5RFUipW8C/Ca24nPUW4fhxsaSziQx7/oZedUUPOvjSsJb1taMJUVznDiQ4k4wX3v2FJc3OHoL8VwphSvvOsQvfHTikf+Kdll4SJ3sK/DoNPrm+DwDd+GSeSKXFu+wxpueLVFygFdEjc1Tpob72jTEqIHofc0i9I6IKxq9mIo0jzJwUU5h/jPGNIQudef7gperY=
+  skip_cleanup: true
+  file_glob: true
+  file: .releases/TinyWigs*.zip
+  on:
+    repo: Avyiel/TinyWigs
+    tags: true
+
 notifications:
   email:
     on_success: never
