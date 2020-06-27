@@ -4,4 +4,7 @@
 <Include file="Classic\RagefireChasm\modules.xml"/>
 <Include file="Classic\RagefireChasm\locales.xml"/>
 
+<Include file="Classic\UpperBlackrockSpire\modules.xml"/>
+<Include file="Classic\UpperBlackrockSpire\locales.xml"/>
+
 </Ui>
