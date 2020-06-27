@@ -1,5 +1,7 @@
 package-as: TinyWigs
 
+manual-changelog: CHANGELOG.md
+
 ignore:
   - .gitignore
   - .travis.yml
