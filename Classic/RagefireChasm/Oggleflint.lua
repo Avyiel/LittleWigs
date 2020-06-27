@@ -5,6 +5,7 @@
 local mod, CL = BigWigs:NewBoss("Oggleflint", 389)
 if not mod then return end
 mod:RegisterEnableMob(11517)
+mod:SetAllowWin(true)
 mod.dungeonId = 11517
 
 --------------------------------------------------------------------------------
