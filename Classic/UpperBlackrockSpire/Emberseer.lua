@@ -23,6 +23,10 @@ if L then
 	L.bossName = "Pyroguard Emberseer"
 
 	L.start_trigger = "begins to regain its strength"
+
+	L.add = "Add deaths"
+	L.add_desc = "Anounces when a Blackhand Incarcerator dies"
+	L.add_icon = "Interface\\Icons\\ability_rogue_feigndeath"
 end
 L = mod:GetLocale()
 
@@ -67,5 +71,5 @@ end
 
 function mod:GuardDeath()
 	addsDead = addsDead + 1
-	self:Message2("add", "green", L.guard_msg:format(addsDead, 8), L.guard_icon)
+	self:Message2("add", "green", L.add_killed:format(addsDead, 8), L.guard_icon)
 end
