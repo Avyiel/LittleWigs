@@ -1,7 +1,7 @@
 language: minimal
 
 env:
-  - RELEASE_FOLDER=releases
+  - RELEASE_FOLDER=./releases
 
 addons:
   apt:

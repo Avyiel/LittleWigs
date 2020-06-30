@@ -10,16 +10,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - DM boss mechanics
 - Other level 50+ dungeons (Strat, Scholo, BRD, ST)
 
-## [0.0.1] - 2014-05-31
+## [0.0.2] - 2020-06-30
+### Removed
+- CurseForge Project ID
+
+## [0.0.1] - 2020-06-29
 ### Added
 - This CHANGELOG file to hopefully serve as an evolving example of a
   standardized open source project CHANGELOG.
-- Added all RFC bosses and mechanics
-- Added all DM bosses
-- Added all UBRS bosses
-- Added all LBRS bosses
-- Added Drakkisath mechanics
-- Added Pyroguard Emberseer mechanics
+- All RFC bosses and mechanics
+- All DM bosses
+- All UBRS bosses
+- All LBRS bosses
+- Drakkisath mechanics
+- Pyroguard Emberseer mechanics
 - **Warning:** There are no mechanics for LBRS yet
 - **Warning:** There are no mechanics for DM yet
 
