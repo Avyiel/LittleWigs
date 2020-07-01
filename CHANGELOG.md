@@ -10,6 +10,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - DM boss mechanics
 - Other level 50+ dungeons (Strat, Scholo, BRD, ST)
 
+## [0.0.3] - 2020-07-01
+### Fixed
+- Version number in the TOC file
+
 ## [0.0.2] - 2020-06-30
 ### Removed
 - CurseForge Project ID

@@ -3,7 +3,7 @@
 ## Title: TinyWigs
 ## Notes: Classic dungeon modules for BigWigs.
 ## Author: Avyiel
-## Version: @project-version@
+## Version: 0.0.3
 
 ## X-Category: Party
 ## X-License: GPLv3
