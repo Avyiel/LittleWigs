@@ -10,6 +10,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - DM boss mechanics
 - Other level 50+ dungeons (Strat, Scholo, BRD, ST)
 
+## [0.0.4] - 2020-07-01
+### Fixed
+- Changelog links
+
 ## [0.0.3] - 2020-07-01
 ### Fixed
 - Version number in the TOC file
@@ -31,7 +35,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Warning:** There are no mechanics for LBRS yet
 - **Warning:** There are no mechanics for DM yet
 
-[Unreleased]: https://github.com/Avyiel/TinyWigs/compare/v0.0.3...HEAD
+[Unreleased]: https://github.com/Avyiel/TinyWigs/compare/v0.0.4...HEAD
+[0.0.4]: https://github.com/Avyiel/TinyWigs/releases/tag/v0.0.4
 [0.0.3]: https://github.com/Avyiel/TinyWigs/releases/tag/v0.0.3
 [0.0.2]: https://github.com/Avyiel/TinyWigs/releases/tag/v0.0.2
 [0.0.1]: https://github.com/Avyiel/TinyWigs/releases/tag/v0.0.1
